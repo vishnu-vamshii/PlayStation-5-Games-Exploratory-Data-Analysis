@@ -6,13 +6,13 @@ This project presents an exploratory data analysis (EDA) of PlayStation 5 games,
 ## Data Description
 Dataset: The dataset contains information about PlayStation 5 games, including their names, ratings, release dates, publishers, and age restrictions.
 
-## Key Columns:
+Key Columns:
 
 name: Game title.
-publisherName: Name of the publisher.
-releaseDate: Release date of the game.
-starRating/averageRating: Average user rating.
-starRating/totalRatingsCount: Total number of ratings.
+publisherName: Name of the publisher. 
+releaseDate: Release date of the game. 
+starRating/averageRating: Average user rating. 
+starRating/totalRatingsCount: Total number of ratings. 
 
 ## Installation and Usage
 To run the analysis locally:
