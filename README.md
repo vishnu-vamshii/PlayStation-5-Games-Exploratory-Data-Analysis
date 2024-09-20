@@ -1,25 +1,44 @@
-# PlayStation-5-Games-Exploratory-Dataset-Analysis
+# PlayStation 5 Games Dataset Analysis
 
-## Project Overview
-This project presents an exploratory data analysis (EDA) of PlayStation 5 games, leveraging various data science techniques to provide insights into the dataset. The analysis explores game ratings, publishers, release trends, and age restrictions, providing a comprehensive understanding of the PS5 game landscape.
+## Overview
+This project performs an analysis of PlayStation 5 games data, including information about game ratings, publishers, release dates, and age restrictions. The dataset is cleaned and processed to extract insights, with a focus on uncovering patterns in game ratings, publisher activity, and other key attributes.
 
-## Data Description
-Dataset: The dataset contains information about PlayStation 5 games, including their names, ratings, release dates, publishers, and age restrictions.
+## Table of Contents
+- [Data Cleaning](#data-cleaning)
+- [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)
+- [Visualizations](#visualizations)
+- [Conclusion](#conclusion)
 
-Key Columns:
+## Data Cleaning
+The dataset contains information on PlayStation 5 games such as average ratings, total ratings count, publishers, and release dates. In this section, we:
+1. Handle missing values by removing entries with missing publisher data.
+2. Format the release date column.
+3. Remove duplicate rows if present.
 
-name: Game title.
-publisherName: Name of the publisher. 
-releaseDate: Release date of the game. 
-starRating/averageRating: Average user rating. 
-starRating/totalRatingsCount: Total number of ratings. 
+## Exploratory Data Analysis (EDA)
+The EDA focuses on exploring the relationships within the data, including:
+- Distribution of average ratings
+- The number of games published by the top 10 publishers
+- Correlation between average ratings and the total ratings count
+- Age restriction analysis
 
-## Installation and Usage
-To run the analysis locally:
+## Visualizations
+Various visualizations help in understanding the dataset:
+1. **Distribution of Average Ratings**: A histogram with KDE shows the spread of ratings across games.
+2. **Top Publishers by Number of Games**: A bar chart reveals which publishers are most active.
+3. **Correlation Between Ratings and Total Ratings Count**: A scatter plot examines the relationship between game popularity and rating.
+4. **Age Restriction Analysis**: A pie chart compares the proportion of age-restricted games to non-age-restricted games.
 
-Clone the repository: git clone <repo-url>
-Install necessary packages: pip install -r requirements.txt
-Execute the Jupyter notebook to view the analysis.
+## Conclusion
+The project provides insights into the PlayStation 5 gaming landscape by exploring key attributes like publisher performance and game ratings. These findings can assist in understanding trends in game releases and user preferences.
 
-## Future Work
-Potential extensions could involve interactive visualizations, sentiment analysis, enhanced predictive modeling, comprehensive dashboards, and more.
+## Usage
+To run the analysis, you will need the following Python libraries:
+- pandas
+- matplotlib
+- seaborn
+
+Install them using pip:
+```bash
+pip install pandas matplotlib seaborn
+
